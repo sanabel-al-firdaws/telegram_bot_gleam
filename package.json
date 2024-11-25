@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "watch": "nodemon --exec \"npm run dev\" -e js,gleam",
+        "dev": "gleam build & wrangler dev"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    },
+    "nodemonConfig": {
+        "delay": 0
+    }
+}
